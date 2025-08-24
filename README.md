@@ -24,3 +24,18 @@ A simple Machine Learning project that classifies emails as **Spam** or **Not Sp
 ---
 
 ## 📂 Project Structure
+Spam-Classifier/
+│
+├── data/
+│ └── spam.csv # Dataset (spam/ham emails)
+│
+├── notebooks/
+│ └── spam_classifier.ipynb # Jupyter Notebook with full implementation
+│
+├── src/
+│ ├── preprocess.py # Functions for cleaning and preprocessing text
+│ ├── model.py # Model training and evaluation code
+│ └── utils.py # Helper functions (metrics, plots, etc.)
+│
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
